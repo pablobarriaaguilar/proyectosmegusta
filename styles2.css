@@ -1,0 +1,96 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.menu-izquierdo{
+    border-style: solid;
+    width: 140px;
+    height: 150px;
+    margin-right: 10px;
+    flex-direction: column;
+    padding-left: 10px;
+
+}   
+
+.navbar{
+    width: 600px;
+    border-style: solid;
+    height: 50px;
+    background-color: black;
+    color: white;
+
+}
+.feed{
+    
+    width: 420px;
+    margin-top: 50px;
+    height: 200px;
+    
+    
+    
+}
+
+.yourfeed{
+    margin: 0 auto;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    margin: 0 auto;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center; 
+}
+.likes{
+    
+    color: aqua;
+    display: inline;
+}
+
+.btn{
+    border-style: solid;
+    width: 100px;
+    height: 30px;
+    background-color: #e5ff62;
+}
+
+img{
+    margin-top: 20px;
+    width: 70px;
+    display: block;
+    margin-left: 18px;
+}
+
+.feedes{
+    width: 410px;
+    height: 120px;
+    border-style: solid;
+    margin-top: 6px;
+    
+}
+
+.btnlikes{
+    background-color:#e5ff62;
+    border-style: solid;
+    width: 50px;
+    height: 30px;
+    font-size:large;
+}
