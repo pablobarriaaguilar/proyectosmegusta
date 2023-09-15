@@ -1,0 +1,46 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.message {
+    width: 350px;
+    height: 100px;
+    border-style: solid;
+    margin-top: 20px; 
+}
+
+h1 {
+    display: inline;
+}
+.likes{
+    
+    color: aqua;
+    display: inline;
+}
+
+.btn{
+    border-style: solid;
+    width: 100px;
+    height: 30px;
+    background-color: #e5ff62;
+}
+
+
+
+
